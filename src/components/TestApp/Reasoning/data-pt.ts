@@ -108,42 +108,42 @@ const names = [
 const comparisons = [
   {
     s: [
-      ["é mais forte que", "não é tão fraco(a) quanto"],
-      ["é mais fraco(a) que", "não é tão forte quanto"],
+      ["é mais forte que", "não é tão débil quanto"],
+      ["é mais débil que", "não é tão forte quanto"],
     ],
     q: [
-      ["mais forte", "menos fraco(a)"],
-      ["mais fraco(a)", "menos forte"],
+      ["mais forte", "menos débil"],
+      ["mais débil", "menos forte"],
     ],
   },
   {
     s: [
-      ["é mais inteligente que", "não é tão burro(a) quanto"],
-      ["é mais burro(a) que", "não é tão inteligente quanto"],
+      ["é mais inteligente que", "não é tão obtuso quanto"],
+      ["é mais obtuso que", "não é tão inteligente quanto"],
     ],
     q: [
-      ["mais inteligente", "menos burro(a)"],
-      ["mais burro(a)", "menos inteligente"],
+      ["mais inteligente", "menos obtuso"],
+      ["mais obtuso", "menos inteligente"],
     ],
   },
   {
     s: [
-      ["é mais alto(a) que", "não é tão baixo(a) quanto"],
-      ["é mais baixo(a) que", "não é tão alto(a) quanto"],
+      ["tem mais altura que", "não tem tão pouca altura quanto"],
+      ["tem menos altura que", "não tem tanta altura quanto"],
     ],
     q: [
-      ["mais alto(a)", "menos baixo(a)"],
-      ["mais baixo(a)", "menos alto(a)"],
+      ["de maior altura", "de maior altura"],
+      ["de menor altura", "de menor altura"],
     ],
   },
   {
     s: [
-      ["é mais corajoso(a) que", "não é tão covarde quanto"],
-      ["é mais covarde que", "não é tão corajoso(a) quanto"],
+      ["é mais valente que", "não é tão covarde quanto"],
+      ["é mais covarde que", "não é tão valente quanto"],
     ],
     q: [
-      ["mais corajoso(a)", "menos covarde"],
-      ["mais covarde", "menos corajoso(a)"],
+      ["mais valente", "menos covarde"],
+      ["mais covarde", "menos valente"],
     ],
   },
   {
@@ -158,12 +158,12 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais engraçado(a) que", "não é tão sério(a) quanto"],
-      ["é mais sério(a) que", "não é tão engraçado(a) quanto"],
+      ["é mais divertido que", "não é tão grave quanto"],
+      ["é mais grave que", "não é tão cômico quanto"],
     ],
     q: [
-      ["mais engraçado(a)", "menos sério(a)"],
-      ["mais sério(a)", "menos engraçado(a)"],
+      ["mais cômico", "menos grave"],
+      ["mais grave", "menos cômico"],
     ],
   },
   {
@@ -178,32 +178,32 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais generoso(a) que", "não é tão egoísta quanto"],
-      ["é mais egoísta que", "não é tão generoso(a) quanto"],
+      ["é mais magnânimo que", "não é tão egoísta quanto"],
+      ["é mais egoísta que", "não é tão altruísta quanto"],
     ],
     q: [
-      ["mais generoso(a)", "menos egoísta"],
-      ["mais egoísta", "menos generoso(a)"],
+      ["mais altruísta", "menos egoísta"],
+      ["mais egoísta", "menos altruísta"],
     ],
   },
   {
     s: [
-      ["é mais confiante que", "não é tão inseguro(a) quanto"],
-      ["é mais inseguro(a) que", "não é tão confiante quanto"],
+      ["é mais confiante que", "não é tão instável quanto"],
+      ["é mais instável que", "não é tão confiante quanto"],
     ],
     q: [
-      ["mais confiante", "menos inseguro(a)"],
-      ["mais inseguro(a)", "menos confiante"],
+      ["mais confiante", "menos instável"],
+      ["mais instável", "menos confiante"],
     ],
   },
   {
     s: [
-      ["é mais calmo(a) que", "não é tão ansioso(a) quanto"],
-      ["é mais ansioso(a) que", "não é tão calmo(a) quanto"],
+      ["é mais tranquilo que", "não é tão tenso quanto"],
+      ["é mais inquieto que", "não é tão pacífico quanto"],
     ],
     q: [
-      ["mais calmo(a)", "menos ansioso(a)"],
-      ["mais ansioso(a)", "menos calmo(a)"],
+      ["mais pacífico", "menos tenso"],
+      ["mais tenso", "menos pacífico"],
     ],
   },
   {
@@ -218,72 +218,72 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais ambicioso(a) que", "não é tão preguiçoso(a) quanto"],
-      ["é mais preguiçoso(a) que", "não é tão ambicioso(a) quanto"],
+      ["é mais persistente que", "não é tão indolente quanto"],
+      ["é mais indolente que", "não é tão persistente quanto"],
     ],
     q: [
-      ["mais ambicioso(a)", "menos preguiçoso(a)"],
-      ["mais preguiçoso(a)", "menos ambicioso(a)"],
+      ["mais persistente", "menos indolente"],
+      ["mais indolente", "menos persistente"],
     ],
   },
   {
     s: [
-      ["é mais responsável que", "não é tão descuidado(a) quanto"],
-      ["é mais descuidado(a) que", "não é tão responsável quanto"],
+      ["é mais responsável que", "não é tão negligente quanto"],
+      ["é mais negligente que", "não é tão responsável quanto"],
     ],
     q: [
-      ["mais responsável", "menos descuidado(a)"],
-      ["mais descuidado(a)", "menos responsável"],
+      ["mais responsável", "menos negligente"],
+      ["mais negligente", "menos responsável"],
     ],
   },
   {
     s: [
-      ["é mais empático(a) que", "não é tão insensível quanto"],
-      ["é mais insensível que", "não é tão empático(a) quanto"],
+      ["é mais humano que", "não é tão insensível quanto"],
+      ["é mais insensível que", "não é tão solidário quanto"],
     ],
     q: [
-      ["mais empático(a)", "menos insensível"],
-      ["mais insensível", "menos empático(a)"],
+      ["mais solidário", "menos insensível"],
+      ["mais insensível", "menos solidário"],
     ],
   },
   {
     s: [
-      ["é mais criativo(a) que", "não é tão convencional quanto"],
-      ["é mais convencional que", "não é tão criativo(a) quanto"],
+      ["é mais original que", "não é tão convencional quanto"],
+      ["é mais convencional que", "não é tão inventivo quanto"],
     ],
     q: [
-      ["mais criativo(a)", "menos convencional"],
-      ["mais convencional", "menos criativo(a)"],
+      ["mais inventivo", "menos convencional"],
+      ["mais convencional", "menos inventivo"],
     ],
   },
   {
     s: [
-      ["é mais disciplinado(a) que", "não é tão imprudente quanto"],
-      ["é mais imprudente que", "não é tão disciplinado(a) quanto"],
+      ["é mais diligente que", "não é tão imprudente quanto"],
+      ["é mais imprudente que", "não é tão diligente quanto"],
     ],
     q: [
-      ["mais disciplinado(a)", "menos imprudente"],
-      ["mais imprudente", "menos disciplinado(a)"],
+      ["mais diligente", "menos imprudente"],
+      ["mais imprudente", "menos diligente"],
     ],
   },
   {
     s: [
-      ["é mais atraente que", "não é tão feio(a) quanto"],
-      ["é mais feio(a) que", "não é tão atraente quanto"],
+      ["é mais atraente que", "não é tão desagradável quanto"],
+      ["é mais desagradável que", "não é tão atraente quanto"],
     ],
     q: [
-      ["mais atraente", "menos feio(a)"],
-      ["mais feio(a)", "menos atraente"],
+      ["mais atraente", "menos desagradável"],
+      ["mais desagradável", "menos atraente"],
     ],
   },
   {
     s: [
-      ["é mais honesto(a) que", "não é tão enganoso(a) quanto"],
-      ["é mais enganoso(a) que", "não é tão honesto(a) quanto"],
+      ["é mais ético que", "não é tão fraudulento quanto"],
+      ["é mais ardiloso que", "não é tão ético quanto"],
     ],
     q: [
-      ["mais honesto(a)", "menos enganoso(a)"],
-      ["mais enganoso(a)", "menos honesto(a)"],
+      ["mais ético", "menos fraudulento"],
+      ["mais fraudulento", "menos ético"],
     ],
   },
   {
@@ -298,52 +298,52 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais aberto(a) que", "não é tão fechado(a) quanto"],
-      ["é mais fechado(a) que", "não é tão aberto(a) quanto"],
+      ["é mais aberto que", "não é tão hermético quanto"],
+      ["é mais hermético que", "não é tão inclusivo quanto"],
     ],
     q: [
-      ["mais aberto(a)", "menos fechado(a)"],
-      ["mais fechado(a)", "menos aberto(a)"],
+      ["mais inclusivo", "menos hermético"],
+      ["mais hermético", "menos inclusivo"],
     ],
   },
   {
     s: [
-      ["é mais educado(a) que", "não é tão grosseiro(a) quanto"],
-      ["é mais grosseiro(a) que", "não é tão educado(a) quanto"],
+      ["é mais cortês que", "não é tão rude quanto"],
+      ["é mais rude que", "não é tão cortês quanto"],
     ],
     q: [
-      ["mais educado(a)", "menos grosseiro(a)"],
-      ["mais grosseiro(a)", "menos educado(a)"],
+      ["mais cortês", "menos rude"],
+      ["mais rude", "menos cortês"],
     ],
   },
   {
     s: [
-      ["é mais organizado(a) que", "não é tão caótico(a) quanto"],
-      ["é mais caótico(a) que", "não é tão organizado(a) quanto"],
+      ["é mais sistemático que", "não é tão desorganizado quanto"],
+      ["é mais confuso que", "não é tão sistemático quanto"],
     ],
     q: [
-      ["mais organizado(a)", "menos caótico(a)"],
-      ["mais caótico(a)", "menos organizado(a)"],
+      ["mais sistemático", "menos desorganizado"],
+      ["mais desorganizado", "menos sistemático"],
     ],
   },
   {
     s: [
-      ["é mais maduro(a) que", "não é tão imaturo(a) quanto"],
-      ["é mais imaturo(a) que", "não é tão maduro(a) quanto"],
+      ["é mais prudente que", "não é tão pueril quanto"],
+      ["é mais pueril que", "não é tão sensato quanto"],
     ],
     q: [
-      ["mais maduro(a)", "menos imaturo(a)"],
-      ["mais imaturo(a)", "menos maduro(a)"],
+      ["mais sensato", "menos pueril"],
+      ["mais pueril", "menos sensato"],
     ],
   },
   {
     s: [
-      ["é mais flexível que", "não é tão rígido(a) quanto"],
-      ["é mais rígido(a) que", "não é tão flexível quanto"],
+      ["é mais flexível que", "não é tão inflexível quanto"],
+      ["é mais inflexível que", "não é tão flexível quanto"],
     ],
     q: [
-      ["mais flexível", "menos rígido(a)"],
-      ["mais rígido(a)", "menos flexível"],
+      ["mais flexível", "menos inflexível"],
+      ["mais inflexível", "menos flexível"],
     ],
   },
   {
@@ -358,42 +358,42 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais carismático(a) que", "não é tão entediante quanto"],
-      ["é mais entediante que", "não é tão carismático(a) quanto"],
+      ["é mais cativante que", "não é tão entediante quanto"],
+      ["é mais entediante que", "não é tão cativante quanto"],
     ],
     q: [
-      ["mais carismático(a)", "menos entediante"],
-      ["mais entediante", "menos carismático(a)"],
+      ["mais cativante", "menos entediante"],
+      ["mais entediante", "menos cativante"],
     ],
   },
   {
     s: [
-      ["é mais confiável que", "não é tão duvidoso(a) quanto"],
-      ["é mais duvidoso(a) que", "não é tão confiável quanto"],
+      ["é mais confiável que", "não é tão questionável quanto"],
+      ["é mais questionável que", "não é tão confiável quanto"],
     ],
     q: [
-      ["mais confiável", "menos duvidoso(a)"],
-      ["mais duvidoso(a)", "menos confiável"],
+      ["mais confiável", "menos questionável"],
+      ["mais questionável", "menos confiável"],
     ],
   },
   {
     s: [
-      ["é mais apaixonado(a) que", "não é tão indiferente quanto"],
-      ["é mais indiferente que", "não é tão apaixonado(a) quanto"],
+      ["é mais ardente que", "não é tão indiferente quanto"],
+      ["é mais indiferente que", "não é tão ardente quanto"],
     ],
     q: [
-      ["mais apaixonado(a)", "menos indiferente"],
-      ["mais indiferente", "menos apaixonado(a)"],
+      ["mais ardente", "menos indiferente"],
+      ["mais indiferente", "menos ardente"],
     ],
   },
   {
     s: [
-      ["é mais compreensivo(a) que", "não é tão julgador(a) quanto"],
-      ["é mais julgador(a) que", "não é tão compreensivo(a) quanto"],
+      ["é mais tolerante que", "não é tão crítico quanto"],
+      ["é mais crítico que", "não é tão tolerante quanto"],
     ],
     q: [
-      ["mais compreensivo(a)", "menos julgador(a)"],
-      ["mais julgador(a)", "menos compreensivo(a)"],
+      ["mais tolerante", "menos crítico"],
+      ["mais crítico", "menos tolerante"],
     ],
   },
   {
@@ -408,132 +408,132 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais perdoador(a) que", "não é tão rancoroso(a) quanto"],
-      ["é mais rancoroso(a) que", "não é tão perdoador(a) quanto"],
+      ["é mais indulgente que", "não é tão retaliativo quanto"],
+      ["é mais retaliativo que", "não é tão indulgente quanto"],
     ],
     q: [
-      ["mais perdoador(a)", "menos rancoroso(a)"],
-      ["mais rancoroso(a)", "menos perdoador(a)"],
+      ["mais indulgente", "menos retaliativo"],
+      ["mais retaliativo", "menos indulgente"],
     ],
   },
   {
     s: [
-      ["é mais energético(a) que", "não é tão letárgico(a) quanto"],
-      ["é mais letárgico(a) que", "não é tão energético(a) quanto"],
+      ["é mais ágil que", "não é tão lerdo quanto"],
+      ["é mais lerdo que", "não é tão ágil quanto"],
     ],
     q: [
-      ["mais energético(a)", "menos letárgico(a)"],
-      ["mais letárgico(a)", "menos energético(a)"],
+      ["mais ágil", "menos lerdo"],
+      ["mais lerdo", "menos ágil"],
     ],
   },
   {
     s: [
-      ["é mais modesto(a) que", "não é tão presunçoso(a) quanto"],
-      ["é mais presunçoso(a) que", "não é tão modesto(a) quanto"],
+      ["é mais simples que", "não é tão extravagante quanto"],
+      ["é mais extravagante que", "não é tão simples quanto"],
     ],
     q: [
-      ["mais modesto(a)", "menos presunçoso(a)"],
-      ["mais presunçoso(a)", "menos modesto(a)"],
+      ["mais simples", "menos extravagante"],
+      ["mais extravagante", "menos simples"],
     ],
   },
   {
     s: [
-      ["é mais sincero(a) que", "não é tão falso(a) quanto"],
-      ["é mais falso(a) que", "não é tão sincero(a) quanto"],
+      ["é mais franco que", "não é tão hipócrita quanto"],
+      ["é mais hipócrita que", "não é tão franco quanto"],
     ],
     q: [
-      ["mais sincero(a)", "menos falso(a)"],
-      ["mais falso(a)", "menos sincero(a)"],
+      ["mais franco", "menos hipócrita"],
+      ["mais hipócrita", "menos franco"],
     ],
   },
   {
     s: [
-      ["é mais proativo(a) que", "não é tão reativo(a) quanto"],
-      ["é mais reativo(a) que", "não é tão proativo(a) quanto"],
+      ["é mais previdente que", "não é tão impulsivo quanto"],
+      ["é mais precipitado que", "não é tão preveniente quanto"],
     ],
     q: [
-      ["mais proativo(a)", "menos reativo(a)"],
-      ["mais reativo(a)", "menos proativo(a)"],
+      ["mais preveniente", "menos impulsivo"],
+      ["mais impulsivo", "menos preveniente"],
     ],
   },
   {
     s: [
-      ["é mais determinado(a) que", "não é tão hesitante quanto"],
-      ["é mais hesitante que", "não é tão determinado(a) quanto"],
+      ["é mais tenaz que", "não é tão hesitante quanto"],
+      ["é mais hesitante que", "não é tão tenaz quanto"],
     ],
     q: [
-      ["mais determinado(a)", "menos hesitante"],
-      ["mais hesitante", "menos determinado(a)"],
+      ["mais tenaz", "menos hesitante"],
+      ["mais hesitante", "menos tenaz"],
     ],
   },
   {
     s: [
-      ["é mais genuíno(a) que", "não é tão fingido(a) quanto"],
-      ["é mais fingido(a) que", "não é tão genuíno(a) quanto"],
+      ["é mais verdadeiro que", "não é tão artificial quanto"],
+      ["é mais forçado que", "não é tão autêntico quanto"],
     ],
     q: [
-      ["mais genuíno(a)", "menos fingido(a)"],
-      ["mais fingido(a)", "menos genuíno(a)"],
+      ["mais autêntico", "menos artificial"],
+      ["mais artificial", "menos autêntico"],
     ],
   },
   {
     s: [
-      ["é mais entusiasta que", "não é tão apático(a) quanto"],
-      ["é mais apático(a) que", "não é tão entusiasta quanto"],
+      ["é mais entusiasta que", "não é tão indiferente quanto"],
+      ["é mais indiferente que", "não é tão entusiasta quanto"],
     ],
     q: [
-      ["mais entusiasta", "menos apático(a)"],
-      ["mais apático(a)", "menos entusiasta"],
+      ["mais entusiasta", "menos indiferente"],
+      ["mais indiferente", "menos entusiasta"],
     ],
   },
   {
     s: [
-      ["é mais atento(a) que", "não é tão distraído(a) quanto"],
-      ["é mais distraído(a) que", "não é tão atento(a) quanto"],
+      ["é mais vigilante que", "não é tão disperso quanto"],
+      ["é mais disperso que", "não é tão vigilante quanto"],
     ],
     q: [
-      ["mais atento(a)", "menos distraído(a)"],
-      ["mais distraído(a)", "menos atento(a)"],
+      ["mais vigilante", "menos disperso"],
+      ["mais disperso", "menos vigilante"],
     ],
   },
   {
     s: [
-      ["é mais respeitoso(a) que", "não é tão desrespeitoso(a) quanto"],
-      ["é mais desrespeitoso(a) que", "não é tão respeitoso(a) quanto"],
+      ["é mais cortês que", "não é tão insolente quanto"],
+      ["é mais insolente que", "não é tão cortês quanto"],
     ],
     q: [
-      ["mais respeitoso(a)", "menos desrespeitoso(a)"],
-      ["mais desrespeitoso(a)", "menos respeitoso(a)"],
+      ["mais cortês", "menos insolente"],
+      ["mais insolente", "menos cortês"],
     ],
   },
   {
     s: [
-      ["é mais acessível que", "não é tão intimidador(a) quanto"],
-      ["é mais intimidador(a) que", "não é tão acessível quanto"],
+      ["é mais acessível que", "não é tão intimidante quanto"],
+      ["é mais intimidante que", "não é tão acessível quanto"],
     ],
     q: [
-      ["mais acessível", "menos intimidador(a)"],
-      ["mais intimidador(a)", "menos acessível"],
+      ["mais acessível", "menos intimidante"],
+      ["mais intimidante", "menos acessível"],
     ],
   },
   {
     s: [
-      ["é mais espontâneo(a) que", "não é tão previsível quanto"],
-      ["é mais previsível que", "não é tão espontâneo(a) quanto"],
+      ["é mais imprevisível que", "não é tão previsível quanto"],
+      ["é mais previsível que", "não é tão improvisado quanto"],
     ],
     q: [
-      ["mais espontâneo(a)", "menos previsível"],
-      ["mais previsível", "menos espontâneo(a)"],
+      ["mais improvisado", "menos previsível"],
+      ["mais previsível", "menos improvisado"],
     ],
   },
   {
     s: [
-      ["é mais diplomático(a) que", "não é tão direto(a) quanto"],
-      ["é mais direto(a) que", "não é tão diplomático(a) quanto"],
+      ["é mais cauteloso que", "não é tão franco quanto"],
+      ["é mais franco que", "não é tão cauteloso quanto"],
     ],
     q: [
-      ["mais diplomático(a)", "menos direto(a)"],
-      ["mais direto(a)", "menos diplomático(a)"],
+      ["mais cauteloso", "menos franco"],
+      ["mais franco", "menos cauteloso"],
     ],
   },
   {
@@ -558,12 +558,12 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais cooperativo(a) que", "não é tão individualista quanto"],
-      ["é mais individualista que", "não é tão cooperativo(a) quanto"],
+      ["é mais cooperante que", "não é tão individualista quanto"],
+      ["é mais individualista que", "não é tão colaborativo quanto"],
     ],
     q: [
-      ["mais cooperativo(a)", "menos individualista"],
-      ["mais individualista", "menos cooperativo(a)"],
+      ["mais colaborativo", "menos individualista"],
+      ["mais individualista", "menos colaborativo"],
     ],
   },
   {
@@ -578,22 +578,22 @@ const comparisons = [
   },
   {
     s: [
-      ["é mais carinhoso(a) que", "não é tão frio(a) quanto"],
-      ["é mais frio(a) que", "não é tão carinhoso(a) quanto"],
+      ["é mais amável que", "não é tão distante quanto"],
+      ["é mais arredio que", "não é tão amável quanto"],
     ],
     q: [
-      ["mais carinhoso(a)", "menos frio(a)"],
-      ["mais frio(a)", "menos carinhoso(a)"],
+      ["mais amável", "menos distante"],
+      ["mais distante", "menos amável"],
     ],
   },
   {
     s: [
-      ["é mais sensato(a) que", "não é tão irracional quanto"],
-      ["é mais irracional que", "não é tão sensato(a) quanto"],
+      ["é mais prudente que", "não é tão irracional quanto"],
+      ["é mais irracional que", "não é tão prudente quanto"],
     ],
     q: [
-      ["mais sensato(a)", "menos irracional"],
-      ["mais irracional", "menos sensato(a)"],
+      ["mais prudente", "menos irracional"],
+      ["mais irracional", "menos prudente"],
     ],
   },
 ] satisfies ReasoningData["comparisons"];
